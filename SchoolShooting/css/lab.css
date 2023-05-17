@@ -1,4 +1,41 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background-color: #faa7c5;
+}
+
+/* we can have rules apply to multiple elements at the same time with commas */
+h1,h2,h3 {
+  font-family: 'comic sans';
+  color:#1c034a
+}
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  
+  background-color: #1fe4fe;
+}
+
+
+ul {
+  text-align: center;
+  display: block;
+  list-style-type: circle;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 50px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
@@ -6,4 +43,17 @@
     margin-bottom: 10px;
     border: solid 1px #000000;
     background-color: #ffffff;
+  }
+  #js-output {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+  }
+
+  .title, .description, .exits, p {
+    text-align: center;
   }
