@@ -14,12 +14,12 @@ rooms = {
         exitTexts: ["Return to the Main Screen."]
     },
     begin: {
-	name: "Baskin Engineering Room 152",
-	description: "About halfway into a lecture on jQuery(a javaScript library) a voice echoes around the room. \
-    ‘There is an active shooter in the building.’ This is followed by the sound of gunshots. You look around \
-    at your fellow students and think about what to do.",
-	exitKeys: ["hide", "run", "panic"],
-	exitTexts: ["Quick hide!", "RUN", "Panic!"]
+	    name: "Baskin Engineering Room 152",
+	    description: "About halfway into a lecture on jQuery(a javaScript library) a voice echoes around the room. \
+        'There is an active shooter in the building.' This is followed by the sound of gunshots. You look around \
+        at your fellow students and think about what to do.",
+	    exitKeys: ["hide", "run", "panic"],
+	    exitTexts: ["Quick hide!", "RUN", "Panic!"]
     },
     hide: {
 	    name: "Baskin Engineering Room 152: Hiding",
