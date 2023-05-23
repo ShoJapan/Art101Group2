@@ -1,13 +1,13 @@
 rooms = {
     main: {
         name: "<b>Baskin Shooting Simulation</b>",
-        description: "This is a simulation of a school shooting.",
+        description: "This is a simulation of a school shooting based in the University of Santa Cruz. This simulation will take you though choices on how to be prepared in advance for the best chances of survival.",
         exitKeys: ["begin", "learn"],
         exitTexts: ["Begin",  "Learn More"]
     },
     learn: { 
         name: "<b>Baskin Shooting Simulation: Learn More</b>",
-        description: "This project's main goal is to bring awareness to how to deal with school shootings. The \
+        description: "This project's main goal is to bring awareness to how to deal with school shootings. Running should be option one if possible, but be prepared to hide or fight for your life there is no safe escape route. The \
         location was chosen as University of California, Santa Cruz Baskin Engineering since that is the main building \
         associated with the class this project was designed for. This is a final project for Art 101.",
         exitKeys: ["main"],
